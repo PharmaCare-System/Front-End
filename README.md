@@ -1,2 +1,2 @@
 # Front-End
-This repository has the Front-End files, UI &amp;UX 
+This repository contains the front-end files, including UI components.

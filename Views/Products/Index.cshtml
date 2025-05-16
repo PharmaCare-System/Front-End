@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Product List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<ProductReadVM>
+
+<div class="container mb-4">
+   
+        <div class="text-end">
+            <a asp-controller="Products" asp-action="Create" class="btn btn-success">
+                <i class="fas fa-plus-circle"></i> Add Product
+            </a>
+        </div>
+</div>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">Stock: @product.QuantityInStock</p>
+                    <p class="card-text text-primary fw-bold">$@product.Price</p>
+
+                  
+                        <div class="btn-group mt-3" role="group">
+                            <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-outline-danger">
+                                <i class="fas fa-trash-alt"></i> Delete
+                            </a>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+    }
+</div>

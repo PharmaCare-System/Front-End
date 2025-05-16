@@ -1,0 +1,107 @@
+﻿@model ProductUpdateVM
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <!-- Product Information -->
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5>Product Details</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Name" class="control-label"></label>
+                                    <input asp-for="Name" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Price" class="control-label"></label>
+                                    <input asp-for="Price" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="QuantityInStock" class="control-label"></label>
+                                    <input asp-for="QuantityInStock" class="form-control" />
+                                    <span asp-validation-for="QuantityInStock" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="InventoryId" class="control-label"></label>
+                                    <input asp-for="InventoryId" class="form-control" />
+                                    <span asp-validation-for="InventoryId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Section -->
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5>Product Image</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- New Image Upload -->
+                        <div class="form-group">
+                            <label asp-for="ImageUrl" class="control-label">Upload New Image</label>
+                            <input asp-for="ImageUrl"  class="form-control" />
+                            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                            <small class="text-muted">Leave blank to keep current image</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Settings -->
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5>Product Settings</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-check mb-3">
+                            <input asp-for="BulkAllowed" class="form-check-input" />
+                            <label asp-for="BulkAllowed" class="form-check-label">Allow Bulk Purchases</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input asp-for="PrescriptionRequired" class="form-check-input" />
+                            <label asp-for="PrescriptionRequired" class="form-check-label">Requires Prescription</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Save Changes
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Back to List
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

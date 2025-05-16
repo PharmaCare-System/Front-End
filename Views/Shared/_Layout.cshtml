@@ -7,43 +7,63 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="d-flex">
-                <partial name="_LoginPartial" />
-            </div>
             <div class="container">
+                <!-- Brand on the left -->
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">
                     <i class="bi bi-capsule-pill"></i> PharmaCare
                 </a>
+
+                <!-- Toggle button for mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
+
+                <!-- Navbar content -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+                    <!-- Center: Main navigation including Cart -->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-3">
                             <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link" asp-controller="Products" asp-action="Index">Products</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link" asp-controller="Prescriptions" asp-action="Index">Prescriptions</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link" asp-controller="Pharmacists" asp-action="Index">Our Pharmacists</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link" asp-controller="Cart" asp-action="Index">
                                 <i class="bi bi-cart"></i> Cart
                             </a>
                         </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" asp-controller="Categories" asp-action="Index">Categories</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" asp-controller="Inventories" asp-action="Index">Inventories</a>
+                        </li>
+
+
+
+                        
                     </ul>
+
+                    <!-- Right: Login/Register -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <partial name="_LoginPartial" />
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </nav>

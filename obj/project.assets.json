@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\PharmaCare.csproj",
+      "projectUniqueName": "C:\\Users\\moaaz\\Source\\Repos\\Front-End\\PharmaCare.csproj",
       "projectName": "PharmaCare",
-      "projectPath": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\PharmaCare.csproj",
+      "projectPath": "C:\\Users\\moaaz\\Source\\Repos\\Front-End\\PharmaCare.csproj",
       "packagesPath": "C:\\Users\\moaaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\obj\\",
+      "outputPath": "C:\\Users\\moaaz\\Source\\Repos\\Front-End\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

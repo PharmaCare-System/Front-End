@@ -1,50 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\",
+  "WorkspaceRootPath": "C:\\Users\\moaaz\\source\\repos\\Front-End\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\models\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\models\\product\\productreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\product\\productreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\pharmacare_frontend\\front-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\models\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,140 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:26:19.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T02:23:14.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T02:22:49.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAqwDkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:17:37.181Z",
+              "WhenOpened": "2025-05-16T21:52:48.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Models\\RegisterVM.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterVM.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Models\\RegisterVM.cs",
-              "RelativeToolTip": "Models\\RegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:16:13.451Z"
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T21:49:46.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T02:03:42.919Z"
+              "DocumentIndex": 5,
+              "Title": "ProductReadVM.cs",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductReadVM.cs",
+              "RelativeDocumentMoniker": "Models\\Product\\ProductReadVM.cs",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductReadVM.cs",
+              "RelativeToolTip": "Models\\Product\\ProductReadVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:48:28.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-10T02:06:07.819Z"
+              "Title": "ProductUpdateVM.cs",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductUpdateVM.cs",
+              "RelativeDocumentMoniker": "Models\\Product\\ProductUpdateVM.cs",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductUpdateVM.cs",
+              "RelativeToolTip": "Models\\Product\\ProductUpdateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:48:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:46:56.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Models\\LoginVM.cs",
-              "RelativeDocumentMoniker": "Models\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Models\\LoginVM.cs",
-              "RelativeToolTip": "Models\\LoginVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Title": "InventoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\InventoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoriesController.cs",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\InventoriesController.cs",
+              "RelativeToolTip": "Controllers\\InventoriesController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:16:03.031Z"
+              "WhenOpened": "2025-05-16T21:46:54.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwDgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T02:25:44.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:13:48.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\PharmaCare_FrontEnd\\Front-End\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-10T01:51:17.982Z"
+              "WhenOpened": "2025-05-16T21:46:52.9Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -13,8 +13,8 @@ namespace PharmaCare.Models.Product
         [Display(Name = "Product Image")]
         [DataType(DataType.Upload)]
         public string ImageUrl { get; set; }
-        public bool BulkAllowed { get; set; } = false;
-        public bool PrescriptionRequired { get; set; } = true;
+        public bool BulkAllowed { get; set; } 
+        public bool PrescriptionRequired { get; set; } 
 
 
         public int InventoryId { get; set; }

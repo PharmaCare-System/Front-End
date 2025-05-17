@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\moaaz\\source\\repos\\Front-End\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\models\\product\\productaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\product\\productaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\models\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\models\\product\\productreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\product\\productreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\models\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:models\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|c:\\users\\moaaz\\source\\repos\\front-end\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F104984F-3365-4AF8-B528-52030DE6CAA6}|PharmaCare.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,31 +38,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Products\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T21:52:48.876Z"
+              "DocumentIndex": 3,
+              "Title": "ProductAddVM.cs",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductAddVM.cs",
+              "RelativeDocumentMoniker": "Models\\Product\\ProductAddVM.cs",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductAddVM.cs",
+              "RelativeToolTip": "Models\\Product\\ProductAddVM.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T03:46:59.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T03:38:43.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAADgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T02:33:54.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Views\\Products\\Edit.cshtml*",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml*",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T21:49:46.752Z"
+              "WhenOpened": "2025-05-16T21:49:46.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,55 +100,33 @@
               "RelativeDocumentMoniker": "Models\\Product\\ProductReadVM.cs",
               "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductReadVM.cs",
               "RelativeToolTip": "Models\\Product\\ProductReadVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:48:28.494Z"
+              "WhenOpened": "2025-05-16T21:48:28.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ProductUpdateVM.cs",
               "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductUpdateVM.cs",
               "RelativeDocumentMoniker": "Models\\Product\\ProductUpdateVM.cs",
               "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Models\\Product\\ProductUpdateVM.cs",
               "RelativeToolTip": "Models\\Product\\ProductUpdateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:48:20.464Z"
+              "WhenOpened": "2025-05-16T21:48:20.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:46:56.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\InventoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InventoriesController.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\InventoriesController.cs",
-              "RelativeToolTip": "Controllers\\InventoriesController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:46:54.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGUAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\moaaz\\source\\repos\\Front-End\\Controllers\\ProductsController.cs*",
+              "RelativeToolTip": "Controllers\\ProductsController.cs*",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T21:46:52.9Z",
               "EditorCaption": ""

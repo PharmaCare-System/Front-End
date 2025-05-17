@@ -93,15 +93,10 @@
                                 </div>
                             </div>
 
-                            <!-- Inventory Dropdown -->
-                            <div class="col-md-6">
-                                <div class="form-group mb-3">
-                                    <label asp-for="InventoryId" class="control-label"></label>
-                                    <input asp-for="InventoryId" class="form-control" />
-                                    <span asp-validation-for="InventoryId" class="text-danger"></span>
-                                </div>
-                            </div>
-                        </div>
+                          <div class="form-group col-md-6">
+    <label for="InventoryId">Inventory</label>
+    @Html.DropDownListFor(model => model.InventoryId, (SelectList)ViewBag.Inventories, "Select Inventory", new { @class = "form-control" })
+</div>
 
                         <div class="form-check mb-3">
                             <input asp-for="BulkAllowed" class="form-check-input" />

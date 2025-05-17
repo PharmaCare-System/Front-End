@@ -15,8 +15,8 @@ namespace PharmaCare.Models.Product
     
         public int QuantityInStock { get; set; }
 
-        public bool BulkAllowed { get; set; } = false;
-        public bool PrescriptionRequired { get; set; } = true;
+        public bool BulkAllowed { get; set; }
+        public bool PrescriptionRequired { get; set; } 
 
         public string ImageUrl { get; set; }  // To keep track of current image
 

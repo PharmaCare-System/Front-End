@@ -2,7 +2,163 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="home-page">
+    <div class="hero-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center py-4">
+                    <h1 class="display-4 fw-bold mb-4">Welcome to PharmaCare</h1>
+                    <p class="lead fs-3">Your trusted pharmacy partner for health and wellness.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features-section py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Our Services</h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-container bg-primary bg-opacity-10 rounded-circle p-3 mb-4 mx-auto" style="width: 70px; height: 70px;">
+                                <i class="fas fa-prescription-bottle-alt fs-3 text-primary"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Easy Prescriptions</h3>
+                            <p>Upload or transfer your prescriptions with just a few clicks.</p>
+                            <a href="/Prescriptions" class="btn btn-outline-primary mt-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-container bg-primary bg-opacity-10 rounded-circle p-3 mb-4 mx-auto" style="width: 70px; height: 70px;">
+                                <i class="fas fa-truck fs-3 text-primary"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Fast Delivery</h3>
+                            <p>Get your medications delivered to your doorstep within 24 hours.</p>
+                            <a href="/Products" class="btn btn-outline-primary mt-3">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-container bg-primary bg-opacity-10 rounded-circle p-3 mb-4 mx-auto" style="width: 70px; height: 70px;">
+                                <i class="fas fa-user-md fs-3 text-primary"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Expert Pharmacists</h3>
+                            <p>Consult with our licensed pharmacists anytime, anywhere.</p>
+                            <a href="/Pharmacists" class="btn btn-outline-primary mt-3">Meet Our Team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">What Our Customers Say</h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-container bg-primary bg-opacity-10 rounded-circle p-3 me-3">
+                                    <i class="fas fa-user fs-3 text-primary"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h5 mb-0">Sarah Johnson</h3>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">"PharmaCare made getting my medications so easy. The delivery was fast and the pharmacists were incredibly helpful!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card shadow-sm h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-container bg-primary bg-opacity-10 rounded-circle p-3 me-3">
+                                    <i class="fas fa-user fs-3 text-primary"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h5 mb-0">Michael Chen</h3>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-0">"I've been using PharmaCare for all my family's prescription needs. The service is reliable and the prices are competitive."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<style>
+    .home-page {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero-section {
+        background-color: #0d6efd;
+        padding: 5rem 0;
+    }
+
+    .card {
+        border-radius: 0.5rem;
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .btn-outline-primary {
+        font-weight: 500;
+        border-width: 2px;
+    }
+
+    @@media (max-width: 768px) {
+        .hero-section {
+            padding: 3rem 0;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+        }
+    }
+</style>

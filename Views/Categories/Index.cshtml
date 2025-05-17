@@ -1,31 +1,147 @@
 ﻿@model List<PharmaCare.Models.Categories.CategoryReadVM>
 @{
-	ViewData["Title"] = "Categories";
+    ViewData["Title"] = "Categories";
 }
-<h1>@ViewData["Title"]</h1>
-<div class="row">
-	<div class="col-md-12">
-		<a asp-action="Create" class="btn btn-primary">Create New Category</a>
-	</div>
+
+<div class="categories-container">
+    <div class="container-fluid px-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">@ViewData["Title"]</h1>
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="fas fa-plus-circle"></i> Create New Category
+            </a>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead class="table-primary">
+                    <tr>
+                        <th class="py-3">Category Name</th>
+                        <th class="py-3 text-center">Status</th>
+                        <th class="py-3 text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var category in Model)
+                    {
+                        <tr>
+                            <td class="align-middle">@category.CategoryName</td>
+                            <td class="align-middle text-center">
+                                <span class="badge @(category.IsActive ? "bg-success" : "bg-secondary")">
+                                    @(category.IsActive ? "Active" : "Inactive")
+                                </span>
+                            </td>
+                            <td class="align-middle text-center">
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-outline-primary btn-sm">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-outline-danger btn-sm">
+                                        <i class="fas fa-trash-alt"></i> Delete
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
-<hr />
-<table class="table table-striped">
-	<thead>
-		<tr>
-			<th>Name</th>
-			<th>Is Active</th>
-			<th>Actions</th>
-		</tr>
-	</thead>
-	<tbody>
-		@foreach (var category in Model)  { 
-			<tr> 
-				<td>@category.CategoryName</td> 
-				<td>@category.IsActive</td> 
-				<td> 
-					<a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-warning">Edit</a> 
-					<a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger">Delete</a> 
-				</td> 
-			</tr> 
-		} 
-	</tbody>
+
+<style>
+    .categories-container {
+        padding: 2rem 0;
+        background-color: #f8f9fa;
+        min-height: calc(100vh - 80px);
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    .table-primary {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(13, 110, 253, 0.05);
+    }
+
+    .badge {
+        padding: 0.5em 0.75em;
+        font-size: 0.85em;
+        font-weight: 500;
+        border-radius: 0.25rem;
+    }
+
+    @@media (max-width: 768px) {
+        .table-responsive {
+            border: 0;
+        }
+
+        .table thead {
+            display: none;
+        }
+
+        .table tr {
+            display: block;
+            margin-bottom: 1rem;
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+        }
+
+        .table td {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: none;
+            border-bottom: 1px solid #e9ecef;
+            position: relative;
+            padding-left: 50%;
+        }
+
+            .table td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 1rem;
+                width: 45%;
+                padding-right: 1rem;
+                font-weight: 600;
+                text-align: left;
+            }
+
+            .table td:last-child {
+                border-bottom: 0;
+            }
+
+            .table td .btn {
+                width: 100%;
+                margin: 0.25rem 0;
+            }
+    }
+</style>
+
+<script>
+    // Add data-labels for mobile responsive table
+    document.addEventListener('DOMContentLoaded', function() {
+        const headers = document.querySelectorAll('thead th');
+        const rows = document.querySelectorAll('tbody tr');
+
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            cells.forEach((cell, index) => {
+                if (index < headers.length) {
+                    cell.setAttribute('data-label', headers[index].textContent);
+                }
+            });
+        });
+    });
+</script>

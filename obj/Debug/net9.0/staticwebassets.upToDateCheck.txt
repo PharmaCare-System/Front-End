@@ -1,8 +1,14 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\Images\636577644052079928-GTY-490807737 (1).jpg
 wwwroot\Images\Congestal-Tablets.jpg
 wwwroot\Images\gsgsdvsvwe.png
+wwwroot\Images\pharmacy-bg.jpg
+wwwroot\Images\Products\Congestal-Tablets.jpg
+wwwroot\Images\Products\Eva gold.jpeg
+wwwroot\Images\Products\gsgsdvsvwe.png
+wwwroot\Images\Products\OIP.jpeg
+wwwroot\Images\Products\p.jpeg
+wwwroot\Images\Products\R.jpeg
 wwwroot\Images\R.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

@@ -3,50 +3,91 @@
     ViewData["Title"] = "Login";
 }
 
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-5">
-            <div class="card shadow">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Login to PharmaCare</h4>
-                </div>
-                <div class="card-body">
-                    <form asp-action="Login" method="post">
-                        <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]" />
+<div class="auth-container">
+    <div class="container-fluid px-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white text-center py-3">
+                        <h3><i class="fas fa-sign-in-alt me-2"></i>Login to PharmaCare</h3>
+                    </div>
+                    <div class="card-body p-4">
+                        <form asp-action="Login" method="post">
+                            <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]" />
+                            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="mb-4">
+                                <label asp-for="Email" class="form-label fw-bold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input asp-for="Email" class="form-control form-control-lg" placeholder="Enter your email" />
+                                </div>
+                                <span asp-validation-for="Email" class="text-danger small"></span>
+                            </div>
 
-                        <div class="mb-3">
-                            <label asp-for="Email" class="form-label"></label>
-                            <input asp-for="Email" class="form-control" />
-                            <span asp-validation-for="Email" class="text-danger"></span>
-                        </div>
+                            <div class="mb-4">
+                                <label asp-for="Password" class="form-label fw-bold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    <input asp-for="Password" class="form-control form-control-lg" placeholder="Enter your password" />
+                                </div>
+                                <span asp-validation-for="Password" class="text-danger small"></span>
+                            </div>
 
-                        <div class="mb-3">
-                            <label asp-for="Password" class="form-label"></label>
-                            <input asp-for="Password" class="form-control" />
-                            <span asp-validation-for="Password" class="text-danger"></span>
-                        </div>
+                            <div class="mb-4 form-check">
+                                <input asp-for="RememberMe" class="form-check-input" />
+                                <label asp-for="RememberMe" class="form-check-label">Remember me</label>
+                            </div>
 
-                        <div class="mb-3 form-check">
-                            <input asp-for="RememberMe" class="form-check-input" />
-                            <label asp-for="RememberMe" class="form-check-label"></label>
-                        </div>
+                            <div class="d-grid mb-3">
+                                <button type="submit" class="btn btn-primary btn-lg py-2">
+                                    <i class="fas fa-sign-in-alt me-2"></i>Login
+                                </button>
+                            </div>
 
-                        <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary">Login</button>
-                        </div>
-                    </form>
-
-                    <div class="mt-3 text-center">
-                        <p>Don't have an account? <a asp-action="Register">Register here</a></p>
-                        <p><a href="#">Forgot your password?</a></p>
+                            <div class="text-center mt-4">
+                                <p class="mb-2">Don't have an account? <a asp-action="Register" class="fw-bold">Register here</a></p>
+                                <p><a href="#" class="text-decoration-none">Forgot your password?</a></p>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+    .auth-container {
+        padding: 3rem 0;
+        background-color: #f8f9fa;
+        min-height: calc(100vh - 80px);
+    }
+
+    .card {
+        border-radius: 0.5rem;
+        border: none;
+    }
+
+    .card-header {
+        border-radius: 0.5rem 0.5rem 0 0 !important;
+    }
+
+    .form-control-lg {
+        padding: 0.75rem 1rem;
+        font-size: 1.1rem;
+    }
+
+    @@media (max-width: 576px) {
+        .auth-container {
+            padding: 1.5rem 0;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+    }
+</style>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

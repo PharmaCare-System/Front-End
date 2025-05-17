@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using PharmaCare.Models.Inventory;
 
 namespace PharmaCare.Controllers
 {
@@ -14,8 +16,10 @@ namespace PharmaCare.Controllers
             var inventories = await _httpClient.GetFromJsonAsync<List<PharmaCare.Models.Inventory.InventoryReadVM>>("https://localhost:44350/api/Inventory ");
             return View(inventories);
         }
-        public IActionResult Create()
+        public async Task< IActionResult> Create()
         {
+            var pharmacies = await _httpClient.GetFromJsonAsync<List<PharmacyReadVm>>("https://localhost:44350/api/Pharmacy ");
+            ViewBag.Pharmacies = new SelectList(pharmacies, "Id", "Name");
             return View();
         }
         [HttpPost]
@@ -36,11 +40,10 @@ namespace PharmaCare.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
+            var pharmacies = await _httpClient.GetFromJsonAsync<List<PharmacyReadVm>>("https://localhost:44350/api/Pharmacy ");
+            ViewBag.Pharmacies = new SelectList(pharmacies, "Id", "Name");
             var response = await _httpClient.GetFromJsonAsync<PharmaCare.Models.Inventory.InventoryReadVM>($"https://localhost:44350/api/Inventory/{id}");
-            if (response == null)
-            {
-                return NotFound();
-            }
+          
             var updateModel = new PharmaCare.Models.Inventory.InventoryUpdateVM
             {
                 Id = response.Id,
@@ -53,6 +56,8 @@ namespace PharmaCare.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(PharmaCare.Models.Inventory.InventoryUpdateVM inventory)
         {
+            var pharmacies = await _httpClient.GetFromJsonAsync<List<PharmacyReadVm>>("https://localhost:44350/api/Pharmacy ");
+            ViewBag.Pharmacies = new SelectList(pharmacies, "Id", "Name");
             if (!ModelState.IsValid)
             {
                 return View(inventory);

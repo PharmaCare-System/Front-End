@@ -18,7 +18,6 @@ C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\PharmaCare.sourcelink.jso
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\scopedcss\bundle\PharmaCare.styles.css
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\scopedcss\projectbundle\PharmaCare.bundle.scp.css
-C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\compressed\6w9n3vrmam-epoqz6aty4.gz
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\compressed\1bib06w6zo-61n19gt1b8.gz
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\compressed\htofobduhr-xtxxf3hu2r.gz
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\compressed\wvn3s8p36v-t1cqhe9u97.gz
@@ -92,3 +91,4 @@ C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\refint\PharmaCare.dll
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\PharmaCare.pdb
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\PharmaCare.genruntimeconfig.cache
 C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\ref\PharmaCare.dll
+C:\Users\moaaz\source\repos\Front-End\obj\Debug\net9.0\compressed\6w9n3vrmam-hjjmxuy018.gz

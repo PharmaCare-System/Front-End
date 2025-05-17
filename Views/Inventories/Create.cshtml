@@ -3,27 +3,93 @@
     ViewData["Title"] = "Add Inventory";
 }
 
-<h2>Add Inventory</h2>
+<div class="form-container">
+    <div class="container-fluid px-4">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0"><i class="fas fa-warehouse me-2"></i>@ViewData["Title"]</h2>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <label asp-for="Name" class="form-label fw-bold"></label>
+                            <input asp-for="Name" class="form-control form-control-lg" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
 
-<form asp-action="Create" method="post">
-    <div class="mb-3">
-        <label asp-for="Name" class="form-label"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
+                        <div class="col-md-6 mb-4">
+                            <label asp-for="Location" class="form-label fw-bold"></label>
+                            <input asp-for="Location" class="form-control form-control-lg" />
+                            <span asp-validation-for="Location" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <label asp-for="PharmacyId" class="form-label fw-bold">Pharmacy</label>
+                            @Html.DropDownListFor(model => model.PharmacyId, (SelectList)ViewBag.Pharmacies, "Select Pharmacy",
+                            new { @class = "form-select form-select-lg" })
+                            <span asp-validation-for="PharmacyId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-4">
+                        <button type="submit" class="btn btn-success px-4 py-2">
+                            <i class="fas fa-plus-circle me-2"></i>Create Inventory
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2">
+                            <i class="fas fa-times me-2"></i>Cancel
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="mb-3">
-        <label asp-for="Location" class="form-label"></label>
-        <input asp-for="Location" class="form-control" />
-        <span asp-validation-for="Location" class="text-danger"></span>
-    </div>
+<style>
+    .form-container {
+        padding: 2rem 0;
+        background-color: #f8f9fa;
+        min-height: calc(100vh - 80px);
+    }
 
-    <div class="mb-3">
-        <label asp-for="PharmacyId" class="form-label"></label>
-        <input asp-for="PharmacyId" class="form-control" />
-        <span asp-validation-for="PharmacyId" class="text-danger"></span>
-    </div>
+    .card {
+        border-radius: 0.5rem;
+        border: none;
+    }
 
-    <button type="submit" class="btn btn-success">Create</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
-</form>
+    .card-header {
+        border-radius: 0.5rem 0.5rem 0 0 !important;
+        padding: 1.25rem 1.5rem;
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+
+    .form-control-lg, .form-select-lg {
+        padding: 0.75rem 1rem;
+        font-size: 1.1rem;
+    }
+
+    @@media (max-width: 768px) {
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .d-flex {
+            flex-direction: column;
+            gap: 1rem !important;
+        }
+
+        .btn {
+            width: 100%;
+        }
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

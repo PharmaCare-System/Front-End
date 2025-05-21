@@ -4,16 +4,6 @@
 
 ---
 
-## 👥 Team Members
-
-- **Eslam Seadawi**  
-- **Menna Mohamed**  
-- **Moaz Yasser**  
-- **Hadeer Ramadan**  
-- **Hend Sameer**
-
----
-
 ## 📌 Features
 
 ### 🔐 Admin Panel

@@ -12,7 +12,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.Cookie.HttpOnly = true;
         options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
         options.Cookie.SameSite = SameSiteMode.Strict;
-    }); 
+    });
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
